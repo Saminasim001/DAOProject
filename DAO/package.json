@@ -1,0 +1,28 @@
+{
+  "name": "anthonydao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/distribute.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqibnasim/AnthonyDAO.git"
+  },
+  "author": "Waleed Qureshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aqibnasim/AnthonyDAO/issues"
+  },
+  "homepage": "https://github.com/aqibnasim/AnthonyDAO#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.1",
+    "web3": "^1.7.4"
+  }
+}
